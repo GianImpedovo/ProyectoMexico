@@ -1,0 +1,401 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    color: white;
+    min-height: 100vh;
+    background: #091026;
+}
+
+header {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    left: 0px;
+    top: 0px;
+}
+
+.tituloEncabezado {
+    position: absolute;
+    width: 100%;
+    height: 199px;
+    top: 400px;
+    
+    font-family:'Medula One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 202px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #F0EBDD;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subtituloEncabezado {
+    position: absolute;
+    width: 100%;
+    height: 42.77px;
+    top: 750px;
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.parrafoEncabezado {
+    position: absolute;
+    width: 100%;
+    height: 54px;
+    top: 850px;
+    
+    font-family: 'Mulish';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.contenedorNav {
+    position: absolute;
+    width: 100%;
+    height: 74.35px;
+    right: 100px;
+    text-align: right;
+}
+
+.menuNav {
+    margin: 40px;
+}
+
+.menuNav span a {
+    color: white;
+    margin: 30px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.imagenCalavera {
+    position: absolute;
+    width: 223.91px;
+    height: 271.38px;
+    left: 150px;
+    top: 42.77px;
+
+}
+
+.imgBanderines {
+    position: absolute;
+    width: 100%;
+    height: 288.22px;
+    top: 144.62px;
+}
+
+/* INICIO DEL MAIN */
+
+main {
+    position: absolute;
+    width: 100%;
+    height: 1708px;
+    left: 0px;
+    top: 1000px;
+}
+
+.mainEncabezado {
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.mainEncabezado h2 {
+    position: absolute;
+    width: 450px;
+    height: 97px;
+    left: 60px;
+
+    font-family: 'Medula One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 97px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.mainEncabezado h2::after {
+    content: '';
+    position: absolute;
+    width: 1000px;
+    height: 3px;
+    background-color: white;
+    top: 1.1em;
+    right: -900px;
+}
+
+.contenedorComidaFondo {
+    margin-top: 50px;
+    width: 100%;
+    height: 513px;
+    left: 0px;
+    top: 200px;
+    background: #000000;
+
+}
+
+.imgFondo {
+    width: 100%;
+    height: 513px;
+    left: 0px;
+    top: 200px;
+    opacity: 0.3;
+
+}  
+
+.imgPrincipal {
+
+    position: absolute;
+    width: 50%;
+    height: 470px;
+    margin: 20px;
+    left: 780px;
+    opacity: 1;
+    border-radius: 2px;
+
+}
+
+.contenedorComidaFondo h3 {
+    position: absolute;
+    display: inline;
+    left: 100px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 91px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.franjaRosa {
+    position: absolute;
+    display: inline;
+    width: 62.67px;
+    height: 472px;
+    left: 0px;
+    margin: 20px;
+    
+    background: #F25EB0;
+    border-radius: 6px;
+}
+
+.franjaRoja {
+    position: absolute;
+    display: inline;
+    width: 62.67px;
+    height: 472px;
+    left: 0px;
+    margin: 20px;
+    
+    background: #F2421B;
+    border-radius: 6px;
+}
+
+.franjaNaranja {
+    position: absolute;
+    display: inline;
+    width: 62.67px;
+    height: 472px;
+    left: 0px;
+    margin: 20px;
+    
+    background: #F29829;
+    border-radius: 6px;
+}
+
+.listaComida {
+    position: absolute;
+    display: inline;
+    width: 62.67px;
+    height: 472px;
+    left: 100px;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.listaComida ul li {
+    list-style-type: none;
+    width: 500px;
+    font-size: 40px;
+    margin: 40px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    top:3000px;
+}
+
+.footerLinks {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top:2000px;
+}
+
+.lineaFooterRosa {
+    margin-top: 5px;
+    position: absolute;
+    background: #F25EB0;
+    width: 100%;
+    height: 4px;
+    border-radius: 100px;
+}
+
+.lineaFooterNaranja {
+    margin-top: 25px;
+    position: absolute;
+    background: #F29829;
+    width: 100%;
+    height: 4px;
+    border-radius: 100px;
+}
+
+.lineaFooterRoja {
+    margin-top: 15px;
+    position: absolute;
+    background: #F2421B;
+    width: 100%;
+    height: 4px;
+    border-radius: 100px;
+}
+
+.imgCalaveraFooter {
+    position: absolute;
+    width: 223.91px;
+    height: 271.38px;
+    left: 1500px;
+    top: 70px;
+}
+
+.contenedorRedes {
+    margin: 30px;
+    padding: 30px;
+    position: absolute;
+    width: 405.71px;
+    height: 100px;
+    left: 618.47px;
+    top: 100px;
+    text-align: center;
+}
+
+.imgIcon {
+    margin: 0px 20px;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.contenedorNavFooter {
+    position: absolute;
+    display: inline-block;
+    height: 100px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.contenedorNavFooter a {
+    margin: 30px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-size: 20px;
+}
+
+/* SECCION NOSOTROS */
+
+.seccionMain {
+    position: absolute;
+    width: 100%;
+    height: 1708px;
+    left: 0px;
+    top: 700px;
+}
+
+.seccionEncabezado {
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.seccionEncabezado h2 {
+    position: absolute;
+    width: 450px;
+    height: 97px;
+    left: 60px;
+
+    font-family: 'Medula One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 97px;
+    text-transform: uppercase;
+
+    color: #e1db6ef3;
+}
+
+.seccionEncabezado h2::after {
+    content: '';
+    position: absolute;
+    width: 1000px;
+    height: 3px;
+    background-color: white;
+    top: 1.1em;
+    right: -900px;
+}
+
+.pNosotros {
+    margin: 100px;
+    padding: 60px;
+    width: 100%;
+    height: 400px;
+}
+
+.pNosotros p {
+    text-align: center;
+    font-family: 'Medula One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 97px;
+}
+
+.imgCalaveraNos {
+    position: absolute;
+    width: 348px;
+    height: 400px;
+    left: 786px;
+    top: 750px;
+}
