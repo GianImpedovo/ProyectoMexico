@@ -83,6 +83,8 @@ header {
 
 .menuNav {
     margin: 40px;
+    display: inline-block;
+
 }
 
 .menuNav span a {
@@ -143,11 +145,11 @@ main {
 .mainEncabezado h2::after {
     content: '';
     position: absolute;
-    width: 1000px;
+    width: 500px;
     height: 3px;
     background-color: white;
     top: 1.1em;
-    right: -900px;
+    right: -90%;
 }
 
 .contenedorComidaFondo {
@@ -155,7 +157,6 @@ main {
     margin-top: 50px;
     width: 100%;
     height: 513px;
-    left: 0px;
     top: 200px;
     background: #000000;
 
@@ -234,7 +235,7 @@ main {
 
 .listaComida {
     position: absolute;
-    display: inline;
+    display: flex;
     width: 62.67px;
     height: 472px;
     left: 100px;
