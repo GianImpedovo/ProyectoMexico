@@ -317,7 +317,7 @@ footer {
 
 
 .contenedorRedes ul {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .contenedorRedes li {
@@ -334,12 +334,11 @@ footer {
 
 .contenedorNavFooter {
     display: block;
-    height: 100px;
-    margin: 30px;
-    padding: 30px;
+    margin: 40px;
 }
 
 .contenedorNavFooter a {
+    padding-left: 8px;
     margin: 30px;
     color: white;
     text-decoration: none;
@@ -347,12 +346,13 @@ footer {
     font-family: 'Mulish';
     font-style: normal;
     font-size: 20px;
+    border-left: 5px solid #091026;
     transition: 0.3s;
 }
 
 .contenedorNavFooter a:hover {
-    font-size: 30px;
-    transition: 0.3s;
+    border-left: 5px solid white;
+    transition: 0.4s;
 }
 
 /* -------------------------  SECCION NOSOTROS  -------------------------*/
