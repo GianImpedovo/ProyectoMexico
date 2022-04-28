@@ -76,10 +76,10 @@ header {
 }
 
 .menuNav {
+    display: flex;
+    justify-content: flex-end;
     margin: 40px;
-    display: inline-block;
     width: 80%;
-
 }
 
 .menuNav span a {
@@ -89,12 +89,16 @@ header {
     text-decoration: none;
 }
 
+.menuNav span a:hover {
+    padding-bottom: 8px;
+    transition: 0.3s;
+    border-bottom: 4px solid white;
+}
+
 .imagenCalavera {
-    display: inline-block;
     width: 223.91px;
     height: 271.38px;
     margin: 20px;
-
 }
 
 .imgBanderines {
