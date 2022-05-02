@@ -232,6 +232,14 @@ main {
     border-radius: 6px;
 }
 
+.franjaCeleste {
+    width: 62.67px;
+    height: 472px;
+    margin: 20px;
+    background: #4091BE;
+    border-radius: 6px;
+}
+
 .franjaRoja {
     width: 62.67px;
     height: 472px;
@@ -364,6 +372,8 @@ footer {
     text-align: center;
 }
 
+
+
 .parrafoNosotros {
     width: 50%;
     font-family: 'Mulish';
@@ -374,29 +384,35 @@ footer {
     color: #FFFFFF;
 }
 
+.sucursal {
+    display: flex;
+}
+
 .contenedorSucursales1 {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
     margin-top: 50px;
-    width: 100%;
+    width: 50%;
     height: 513px;
     background-image: url("img/resto_local_primero.jpg");
 }
 
-.contenedorSucursales1:hover {
-    transition: 0.5s;
-    filter: grayscale(80%);
-}
-
 .contenedorSucursales2 {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
     margin-top: 50px;
-    width: 100%;
+    width: 50%;
     height: 513px;
     background-image: url("img/resto_local_segundo.jpg");
 }
 
-.contenedorSucursales2:hover {
-    transition: 0.5s;
-    filter: grayscale(80%);
+.direccion {
+    margin: 50px;
+    width: 50%;
 }
+
 
 .encabezadoSucursales {
     display: flex;
@@ -454,3 +470,5 @@ footer {
 .img3 {
     background-image: url("img/tacos_no_menu.jpg");
 }
+
+
