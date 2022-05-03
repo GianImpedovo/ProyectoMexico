@@ -193,6 +193,7 @@ main {
 }
 
 .listaComida ul li {
+    font-family: 'DM Serif Text', serif;
     list-style-type: none;
     font-size: 40px;
     margin: 40px;
@@ -328,6 +329,7 @@ footer {
 }
 
 .contenedorRedes li {
+    font-family: 'DM Serif Text', serif;
     list-style-type: none;
     font-size: 20px;
 }
@@ -415,6 +417,7 @@ footer {
 }
 
 .direccion li {
+    font-family: 'DM Serif Text', serif;
     display: flex;
 }
 
