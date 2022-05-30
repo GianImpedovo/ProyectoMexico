@@ -1,0 +1,91 @@
+header {
+    margin: 0;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.textoEncabezado {
+    position: relative;
+}
+
+.tituloEncabezado {
+    margin: 10vh 0;
+    width: 100%;
+    height: 23vh;
+    margin-top: 5%;
+    font-family:'Medula One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25vh;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #F0EBDD;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subtituloEncabezado {
+    width: 100%;  
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.parrafoEncabezado {
+    width: 100%;
+    font-family: 'Mulish';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.contenedorNav {
+    display: flex;
+    width: 100%;
+    height: 74.35px;
+    text-align: right;
+}
+
+.menuNav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 40px;
+    width: 80%;
+}
+
+.menuNav span a {
+    color: white;
+    margin: 30px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.menuNav span a:hover {
+    padding-bottom: 8px;
+    transition: 0.3s;
+    border-bottom: 4px solid white;
+}
+
+.imagenCalavera {
+    width: 223.91px;
+    height: 271.38px;
+    margin: 20px;
+    
+}
+
+.imgBanderines {
+    width: 100%;
+    height: 288.22px;
+    margin-top: 50px;
+}
