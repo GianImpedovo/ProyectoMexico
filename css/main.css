@@ -173,6 +173,8 @@ main {
     color: #FFFFFF;
 }
 
+/* -------------------------  SECCION SUCURSALES  -------------------------*/
+
 .sucursal {
     display: flex;
 }
