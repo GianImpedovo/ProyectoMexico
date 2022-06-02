@@ -5,7 +5,25 @@ header {
     top: 0px;
 }
 
+/* ---- MENU HAMBURGUESA ----- */
+.menuBurga {
 
+}
+
+.menuBurga input {                        /*no muestra el botón de menu */
+    display: none;     
+}
+
+label {                       /*no muestra la etiqueta ☰ */
+    display:none;
+}
+
+.menuBurga li {
+    display: none;
+}
+
+
+/* ---------------------------- */
 .textoEncabezado {
     position: relative;
 }
@@ -86,4 +104,56 @@ header {
 
 .imgBanderines {
     width: 100%;
+}
+
+
+@media (max-width: 900px) {  /*cuando el dispositivo es como máximo de 700px*/
+
+    .menuNav {
+        display: none;
+    }
+
+    .menuBurga {
+        float: right;
+    }
+
+    input:checked  ~ ul{   /*muestra todas el contenido de todas las etiquetas ul */
+        display:block;
+        float: right;
+    }
+
+    input:checked ~ label {   /*muestra todo el contenido de todas las etiquetas label */
+        background: lightgrey; 
+    }
+
+    label:hover{               /*cambia el color de ☰ */
+        background: grey;
+    }
+
+    .menuBurga li{                         /*elimina el margen  de cada botón */
+        display: block;
+        margin: 0px;
+        text-align: center;
+    }
+
+    label {                      /* dibuja la etiqueta ☰  con formato botón */
+        box-sizing: border-box;
+        display: block;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+        background-color: cadetblue;
+
+    }
+
+    ul {                          /*deja de mostrar el bloque contenedor de los botones horizontales */
+        display: none;
+        background-color:white;
+    }
+
 }
