@@ -1,11 +1,9 @@
 footer {
-    margin-top: 20%;
     width: 100%;
-    height: 400px;
 }
 
 .lineaFooterRosa {
-    margin-top: 5px;
+    margin-top: 0.5%;
     background: #F25EB0;
     width: 100%;
     height: 4px;
@@ -13,7 +11,7 @@ footer {
 }
 
 .lineaFooterNaranja {
-    margin-top: 5px;
+    margin-top: 0.5%;
     background: #F29829;
     width: 100%;
     height: 4px;
@@ -21,7 +19,7 @@ footer {
 }
 
 .lineaFooterRoja {
-    margin-top: 5px;
+    margin-top: 0.5%;
     background: #F2421B;
     width: 100%;
     height: 4px;
@@ -33,14 +31,10 @@ footer {
     justify-content: space-between;
 }
 
-.footerLinks {
-    height: 200px;
-}
 
 .imgCalaveraFooter {
-    margin: 40px;
-    width: 223.91px;
-    height: 271.38px;
+    margin: 2em;
+    width: 10%;
 }
 
 .contenedorRedes {
