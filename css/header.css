@@ -3,29 +3,47 @@ header {
     width: 100%;
     left: 0px;
     top: 0px;
+    text-decoration: none;
+    list-style: none;
 }
 
-/* ---- MENU HAMBURGUESA ----- */
-.menuBurga {
-
+nav {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
 }
 
-.menuBurga input {                        /*no muestra el botón de menu */
-    display: none;     
-}
-
-label {                       /*no muestra la etiqueta ☰ */
-    display:none;
-}
-
-.menuBurga li {
+label {
     display: none;
 }
 
+input {
+    display: none;
+}
 
-/* ---------------------------- */
-.textoEncabezado {
-    position: relative;
+.nav-menu {
+    margin-right: 70px;
+}
+
+.nav-menu li {
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 20px;
+    transition: none;
+}
+
+.nav-menu li a {
+    margin: 5px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.nav-menu li a:hover {
+    padding-bottom: 8px;
+    transition: 0.3s;
+    border-bottom: 4px solid white;
 }
 
 .tituloEncabezado {
@@ -66,37 +84,6 @@ label {                       /*no muestra la etiqueta ☰ */
     color: #FFFFFF;
 }
 
-.contenedorNav {
-    display: flex;
-    width: 100%;
-    text-align: right;
-    justify-content: space-between;
-}
-
-.contenedorNav div {
-    margin: 2em;
-}
-
-.menuNav {
-    display: flex;
-    justify-content: flex-end;
-    margin: 40px;
-    width: 80%;
-}
-
-.menuNav span a {
-    color: white;
-    margin: 30px;
-    font-size: 30px;
-    text-decoration: none;
-}
-
-.menuNav span a:hover {
-    padding-bottom: 8px;
-    transition: 0.3s;
-    border-bottom: 4px solid white;
-}
-
 .imagenCalavera {
     margin: 2em;
     width: 10%;
@@ -107,53 +94,83 @@ label {                       /*no muestra la etiqueta ☰ */
 }
 
 
-@media (max-width: 900px) {  /*cuando el dispositivo es como máximo de 700px*/
-
-    .menuNav {
-        display: none;
+@media (max-width: 1900px) {  /*cuando el dispositivo es como máximo de 1900px*/
+    * {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    header {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    nav {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
-    .menuBurga {
-        float: right;
+    label {
+        display: flex;
     }
-
-    input:checked  ~ ul{   /*muestra todas el contenido de todas las etiquetas ul */
-        display:block;
-        float: right;
+    
+    .imagenCalavera {
+        width: 10%;
+        margin-left: 20px;
     }
-
-    input:checked ~ label {   /*muestra todo el contenido de todas las etiquetas label */
-        background: lightgrey; 
+    
+    .imgBanderines {
+        width: 100%;
     }
-
-    label:hover{               /*cambia el color de ☰ */
-        background: grey;
+    
+    .bar-btn {
+        font-size: 25px;
+        margin-right: 20px;
+        cursor: pointer;
+    
     }
-
-    .menuBurga li{                         /*elimina el margen  de cada botón */
-        display: block;
-        margin: 0px;
+    
+    .nav-menu {
+        position: fixed;
+        width: 100%;
+        height: 0vh;
+        top: 100px;
+        background-color: rgba(0, 0, 0, .95);
         text-align: center;
     }
-
-    label {                      /* dibuja la etiqueta ☰  con formato botón */
-        box-sizing: border-box;
-        display: block;
-        border: 1px solid black;
-        border-radius: 5px;
-        width: 30px;
-        height: 30px;
+    
+    .nav-menu li {
+        
+        display: none;
         line-height: 30px;
-        font-weight: bold;
-        text-align: center;
-        user-select: none;
-        background-color: cadetblue;
-
+        margin: 50px 0;
+    
     }
-
-    ul {                          /*deja de mostrar el bloque contenedor de los botones horizontales */
+    
+    .nav-menu li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 600;
+    
+    }
+    
+    #check {
         display: none;
-        background-color:white;
+    }
+    
+    #check:checked ~ .nav-menu {
+        height: 100vh;
+    }
+    
+    #check:checked ~ .nav-menu li {
+        display: block;
     }
 
 }
