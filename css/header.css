@@ -196,7 +196,9 @@ input {
     .parrafoEncabezado {
         font-size: 1em;
     }
-
+    .encabezado_modulos {
+        height: 300px;
+    }
 
 
 }

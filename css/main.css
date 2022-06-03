@@ -145,30 +145,31 @@ main {
 /* -------------------------  SECCION NOSOTROS  -------------------------*/
 
 .contenedorContenido {
-    margin: 10% 0;
-    position: relative;
+    margin-bottom: 10%;
     z-index: 3;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
-    text-align: center;
 }
 
 
 
 .parrafoNosotros {
+    padding: 30px;
     width: 50%;
     font-family: 'Mulish';
     font-weight: 400;
     font-size: 4vh;
-    line-height: 60px;
-    text-align: center;
     color: #FFFFFF;
 }
 
+.parrafoNosotros p {
+    text-indent: 50px;
+}
+
 .imgCalaveraNos {
-    margin: 2em;
-    width: 30vw;
+    width: 20vw;
 }
 
 /* -------------------------  SECCION SUCURSALES  -------------------------*/
@@ -178,7 +179,6 @@ main {
 }
 
 .contenedorSucursales1 {
-    position: relative;
     display: flex;
     justify-content: flex-end;
     margin-top: 5%;
@@ -188,7 +188,6 @@ main {
 }
 
 .contenedorSucursales2 {
-    position: relative;
     display: flex;
     justify-content: flex-end;
     margin-top: 5%;
@@ -209,6 +208,7 @@ main {
 
 
 .encabezadoSucursales {
+    justify-content: center;
     display: flex;
     width: 100%;
 }
@@ -224,7 +224,6 @@ main {
 }
 
 .lineaSucursales {
-    margin: 0px 100px;
     border-bottom: solid 4px white ;
     border-radius: 4px;
 }
@@ -276,6 +275,12 @@ main {
         text-transform: uppercase;
     }
 
+    
+    .listaComida ul li {
+        margin: 30px 0;
+        font-size: 4vh;
+    }
+
     .separadorComida {
         align-items: center;
         justify-content: center;
@@ -302,5 +307,73 @@ main {
     .franjaRosa {
         display: none;
     }
+
+    /* --- CONTENIDO NOSOTROS --- */
+    .contenedorContenido {
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .parrafoNosotros {
+        margin-bottom: 40px;
+        font-size: 16px;
+    }
+    .imgCalaveraNos {
+        width: 100px;
+    }
+
+    /* --- CONTENIDO SUCURSALES --- */
+    .h1_sucursal {
+        margin-top: 100px;
+        font-size: 7em;
+    }
+
+    .circuloNaranja {
+        display: none;
+    }
+    .circuloRojo {
+        display: none;
+    }
+    .circuloRosa {
+        display: none;
+    }
+
+    .sucursal {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .contenedorSucursales1 {
+        width: 100%;
+        height: 100px;
+        background-image: url("../img/resto_local_primero.jpg");
+        background-size: cover;
+    }
+
+    .contenedorSucursales2 {
+        width: 100%;
+        height: 100px;
+        background-image: url("../img/resto_local_segundo.jpg");
+        background-size: cover;
+    }
+
+    .direccion {
+        width: 100%;
+    }
+
+    .direccion ul {
+        margin-left: 10px;
+    }
+
+    .direccion li {
+        font-size: 4px;
+    }
+
+    .sucursalesH3 {
+        font-family:'Medula One', cursive;
+        letter-spacing: 4px;
+        width: 100%;
+    }
+    
 }
 
