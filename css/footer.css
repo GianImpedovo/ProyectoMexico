@@ -90,3 +90,17 @@ footer {
     transition: 0.4s;
 }
 
+@media (max-width: 992px) {
+    .contenidoFooter {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgCalaveraFooter {
+        display: none;
+    }
+
+    .contenedorNavFooter {
+        text-align: center;
+    }
+}
