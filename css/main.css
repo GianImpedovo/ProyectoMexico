@@ -257,7 +257,6 @@ main {
     margin: 5% 0;
     display: grid;
     row-gap: 50px;
-    background-color: #31428a3d;
     padding: 10px;
 }
 
@@ -269,7 +268,6 @@ main {
     font-size: 10vh;
     text-transform: uppercase;
     letter-spacing: 9px;
-    
     color: #FFFFFF;
 }
 
