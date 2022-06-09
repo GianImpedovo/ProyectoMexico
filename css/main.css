@@ -273,12 +273,25 @@ main {
 
 .grid-item {
     padding: 20px;
-    display: flex;
-    justify-content: space-between;
+    display: block;
     font-size: 30px;
     background-color: rgba(0, 0, 0, 0.458);
     border-radius: 7px;
     border: solid 1px rgb(209, 202, 202);
+}
+
+.comida {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/*  TENGO QUE PODER HACER HOVER Y QUE SE MUESTREN LOS INGREDIENTES Y EL PRECIO */
+
+.ingredientes {
+    display: none;
+    font-family: 'DM Serif Text', serif;
+    font-size: .7em;
 }
 
 .contador {
@@ -315,7 +328,7 @@ main {
     background-color: #0a10377a;
     color: white;
     font-size: 2em;
-    width: 10%;
+    width: 13%;
     height: 100%;
     border-radius: 5px;
     border: 1px solid white;
