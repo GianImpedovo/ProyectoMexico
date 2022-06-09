@@ -252,6 +252,97 @@ main {
     border-radius: 100%;
 }  
 
+/* --- SECCION PEDIDO ---  */
+.grid-container {
+    margin: 5% 0;
+    display: grid;
+    row-gap: 50px;
+    background-color: #31428a3d;
+    padding: 10px;
+}
+
+.grid-container h3 {
+    text-align: center;
+    font-family:'Medula One', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10vh;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    
+    color: #FFFFFF;
+}
+
+.grid-item {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.458);
+    border-radius: 7px;
+    border: solid 1px rgb(209, 202, 202);
+}
+
+.contador {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.btn-contador {
+    border: none;
+    font-size: 1em;
+    border-radius: 10px;
+    width: 25%;
+    transition: .3s;
+}
+
+.btn-contador:hover {
+    transition: .3s;
+    opacity: .6;
+}
+
+.contenedor-btn {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn-pedir {
+    font-family: 'DM Serif Text', serif;
+    background-color: #0a10377a;
+    color: white;
+    font-size: 2em;
+    width: 10%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid white;
+    letter-spacing: 4px;
+    transition: .5s;
+}
+
+.btn-pedir:hover {
+    width: 15%;
+    height: 125%;
+    font-size: 2.5em;
+    background-color: #07070c7a;
+    transition: .5s;
+}
+
+.naranja {
+    background-color: #F29829;
+}
+
+.rojo {
+    background-color: #F2421B;
+}
+
+
+
 @media (max-width: 992px) {
 
     .imgPrincipal {
