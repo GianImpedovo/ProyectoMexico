@@ -286,10 +286,7 @@ main {
     width: 100%;
 }
 
-/*  TENGO QUE PODER HACER HOVER Y QUE SE MUESTREN LOS INGREDIENTES Y EL PRECIO */
-
 .ingredientes {
-    display: none;
     font-family: 'DM Serif Text', serif;
     font-size: .7em;
 }
@@ -477,8 +474,8 @@ main {
         margin-left: 10px;
     }
 
-    .direccion li {
-        font-size: 4px;
+    .direccion li p {
+        font-size: ;
     }
 
     .sucursalesH3 {
