@@ -172,6 +172,19 @@ main {
     width: 20vw;
 }
 
+/* -------------------------  SECCION CONTACTANOS  -------------------------*/
+
+.direccion {
+    margin: 5%;
+    width: 50%;
+}
+
+.direccion li {
+    font-size: 1em;
+    font-family: 'DM Serif Text', serif;
+    display: flex;
+}
+
 /* -------------------------  SECCION SUCURSALES  -------------------------*/
 
 .sucursal {
@@ -194,16 +207,6 @@ main {
     width: 50%;
     height: 54.74vh;
     background-image: url("../img/resto_local_segundo.jpg");
-}
-
-.direccion {
-    margin: 5%;
-    width: 50%;
-}
-
-.direccion li {
-    font-family: 'DM Serif Text', serif;
-    display: flex;
 }
 
 
@@ -475,7 +478,7 @@ main {
     }
 
     .direccion li p {
-        font-size: ;
+        font-size: 20px;
     }
 
     .sucursalesH3 {
