@@ -8,8 +8,8 @@ const TACOS_SET = 750;
 const TACOS_POLLO = 700;
 const TACOS_RES = 850;
 
-let suma = document.querySelectorAll(".suma")
-let resta = document.querySelectorAll(".resta")
+let suma = document.querySelectorAll(".suma");
+let resta = document.querySelectorAll(".resta");
 let total = document.getElementById("total");
 
 
@@ -54,6 +54,7 @@ function inicio(){
             }
         })
     })
+
 
 }
 
