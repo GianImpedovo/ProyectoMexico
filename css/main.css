@@ -290,6 +290,7 @@ main {
 }
 
 .ingredientes {
+    margin-top: 10px;
     font-family: 'DM Serif Text', serif;
     font-size: .7em;
 }
@@ -363,12 +364,12 @@ main {
 }
 
 .msj-pedido {
+    display: none;
     font-family: 'DM Serif Text', serif;
     font-size: 2em;
     background-color: rgba(6, 117, 6, 0.699);
     width: 100%;
     height: 15vh;
-    display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 9px;
@@ -520,6 +521,11 @@ main {
 
     .mainPedido {
         margin-top: 150px;
+    }
+
+    .msj-pedido {
+        font-size: 1em;
+        display: none;
     }
 }
 

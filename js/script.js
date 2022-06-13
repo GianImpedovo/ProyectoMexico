@@ -55,6 +55,8 @@ function inicio(){
         })
     })
 
+    let btn_pedir = document.getElementById("pedir");
+    btn_pedir.addEventListener('click', mostrarMensaje )
 
 }
 
@@ -78,4 +80,11 @@ function encontrarPrecio(id){
 
     return precio;
 }
+
+function mostrarMensaje(){
+    let mensaje = document.querySelector(".msj-pedido");
+    mensaje.style.display = "flex";
+
+}
+
 
