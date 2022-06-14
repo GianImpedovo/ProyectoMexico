@@ -79,7 +79,7 @@ main {
     font-family: 'DM Serif Text', serif;
     list-style-type: none;
     font-size: 5vh;
-    margin: 50px 0 ;
+    margin: 10% 0 ;
 }
 
 .imgFondo {
@@ -183,6 +183,51 @@ main {
     font-size: 1em;
     font-family: 'DM Serif Text', serif;
     display: flex;
+}
+
+.tituloForm {
+    font-family: 'Medula One', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    font-size: 4em;
+}
+
+.contenedor-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-contacto {
+    margin-bottom: 5%;
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid #F2421B;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-contacto label {
+    font-size: 2em;
+    font-family: 'DM Serif Text', serif;
+    margin: 5%;
+    display: flex;
+
+}
+
+.form-contacto input {
+    margin: 5%;
+    width: 90%;
+    height: 6vh;
+    display: flex;
+}
+
+.form-contacto textarea {
+    margin: 0 5% 5% 5%;
 }
 
 /* -------------------------  SECCION SUCURSALES  -------------------------*/
@@ -401,7 +446,6 @@ main {
 
     
     .listaComida ul li {
-        margin: 30px 0;
         font-size: 4vh;
     }
 
@@ -498,6 +542,18 @@ main {
         letter-spacing: 4px;
         width: 100%;
     }
+
+    /* ---------- SECCION CONTACTO --------------- */
+
+    .tituloForm {
+        font-size: 2em;
+    }
+
+    .form-contacto label {
+        font-size: 1em;
+    
+    }
+    
     
     /* --- SECCION PEDIDO ---  */
     .grid-item {
