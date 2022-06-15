@@ -185,15 +185,6 @@ main {
     display: flex;
 }
 
-.tituloForm {
-    font-family: 'Medula One', cursive;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5%;
-    font-size: 4em;
-}
-
 .contenedor-form {
     width: 100%;
     display: flex;
@@ -201,35 +192,67 @@ main {
     align-items: center;
 }
 
-.form-contacto {
-    margin-bottom: 5%;
-    width: 50%;
-    border-radius: 10px;
-    border: 2px solid #F2421B;
-    justify-content: center;
-    align-items: center;
-
+.formulario {
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    position: relative;
 }
 
-.form-contacto label {
-    font-size: 2em;
+.tituloForm {
+    font-size: 3em;
+    margin-bottom: 50px;
     font-family: 'DM Serif Text', serif;
-    margin: 5%;
-    display: flex;
+    text-align: center;
+}
+
+
+
+.formulario_input, .formulario_label, .formulario_submit {
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
 
 }
 
-.form-contacto input {
-    margin: 5%;
-    width: 90%;
-    height: 6vh;
-    display: flex;
+.formulario_input:focus {
+    outline: 1px solid black;
 }
 
-.form-contacto textarea {
-    margin: 0 5% 5% 5%;
+.formulario_input:focus + .formulario_label {
+    margin-top: -140px;
 }
 
+.formulario_input {
+    color: white;
+    padding: 20px 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    margin-bottom: 40px;
+}
+
+.formulario_label {
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -85px;
+    z-index: -20;
+    color: rgba(223, 213, 213, 0.5);
+    transition: all .2s;
+}
+
+.formulario_submit {
+    margin-left: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.13);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.fijar {
+    margin-top: -140px;
+}
 /* -------------------------  SECCION SUCURSALES  -------------------------*/
 
 .sucursal {
