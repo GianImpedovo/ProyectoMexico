@@ -16,18 +16,18 @@ function validarForm() {
     let email = document.getElementById("email");
 
     if ( nombre.value.length == 0 ){
-        alert(" No ingresaste el nombre ! ")
+        alert(" No ingresaste el nombre ! ");
         return;
     } 
     if ( asunto.value.length == 0 ){
-        alert(" No ingresaste el asunto ! ")
+        alert(" No ingresaste el asunto ! ");
         return;
     }
     if ( email.value.length == 0 ){
-        alert(" No ingresaste el email ! ")
+        alert(" No ingresaste el email ! ");
         return;
     } 
-    alert("Tu mensaje ha sido enviado ! ")
+    alert("Tu mensaje ha sido enviado ! ");
 
 }
 
