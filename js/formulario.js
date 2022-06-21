@@ -27,8 +27,7 @@ function validarForm() {
         alert(" No ingresaste el email ! ");
         return;
     } 
-    alert("Tu mensaje ha sido enviado ! ");
-
+    alert("Mensaje enviado !");
 }
 
 function fijarElementosForm() {
